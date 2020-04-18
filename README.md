@@ -1,2 +1,4 @@
-# Ontos
-A Windows Forms App that acts as a guide for Xenoblade Chronicles.  May contain spoilers for the entire game if you use this program.
+# Ontos - A Xenoblade Guide App for Windows
+*Name not final.  -  MAJOR GAME SPOILER WARNING WHILE IN DEVELOPMENT!*
+
+This is an app for windows that acts as a guide for the game Xenoblade Chronicles.
