@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ontos", "Ontos\Ontos.csproj", "{38FC443D-2462-4015-806E-00B5B506D728}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38FC443D-2462-4015-806E-00B5B506D728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38FC443D-2462-4015-806E-00B5B506D728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38FC443D-2462-4015-806E-00B5B506D728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38FC443D-2462-4015-806E-00B5B506D728}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11836917-FB06-42D3-A67F-248EF036DE40}
+	EndGlobalSection
+EndGlobal
