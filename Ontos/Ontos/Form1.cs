@@ -20,24 +20,7 @@ namespace Ontos
         //Creates a second custom form window
         Form2 secondForm = new Form2();
 
-
-
-        //Error Message Template
-        //How To Use:
-        //In area the triggers error, list the following code:
-        //
-        //  string errormessage = "<INSERT ERROR MESSAGE>";
-        //  ProgramFailure();
-        //
-        //The window will display the error message set by the error
-        //in the custom error message box.
-        private void ProgramFailure()
-        {
-            //Template for Error Messages
-            string title = "Ontos - Error";
-            MessageBox.Show(errormessage, title);
-        }
-
+       
 
 
 
@@ -54,7 +37,8 @@ namespace Ontos
             catch (Exception ex)
             {
                 string errormessage = "Failed to open link.";
-                ProgramFailure();
+                string title = "Ontos - Error";
+                MessageBox.Show(errormessage, title);
             }
         }
 
@@ -87,5 +71,11 @@ namespace Ontos
             string title = "Ontos - Information";
             MessageBox.Show(message, title);
         }
+
+
+
+
+
+        
     }
 }
