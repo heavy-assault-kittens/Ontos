@@ -18,6 +18,7 @@ namespace Ontos
         }
 
         //Creates a second custom form window
+        //Information window
         Form2 informationWindow = new Form2();
 
        
@@ -69,6 +70,7 @@ namespace Ontos
         {
             try
             {
+                Form2 informationWindow = new Form2();
                 informationWindow.Show();
             }
             catch (Exception ex)
@@ -76,6 +78,7 @@ namespace Ontos
                 string errormessage = "Failed to open window.";
                 string title = "Ontos - Error";
                 MessageBox.Show(errormessage, title);
+            //    Form2 informationWindow = new Form2();
             }
         }
 
