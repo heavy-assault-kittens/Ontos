@@ -18,7 +18,7 @@ namespace Ontos
         }
 
         //Creates a second custom form window
-        Form2 secondForm = new Form2();
+        Form2 informationWindow = new Form2();
 
        
 
@@ -67,9 +67,16 @@ namespace Ontos
         //The Information Menu Item Code
         private void InformationToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string message = "Meh - Placeholder Text";
-            string title = "Ontos - Information";
-            MessageBox.Show(message, title);
+            try
+            {
+                informationWindow.Show();
+            }
+            catch (Exception ex)
+            {
+                string errormessage = "Failed to open window.";
+                string title = "Ontos - Error";
+                MessageBox.Show(errormessage, title);
+            }
         }
 
 

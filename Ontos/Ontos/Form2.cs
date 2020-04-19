@@ -16,5 +16,16 @@ namespace Ontos
         {
             InitializeComponent();
         }
+
+        //This is the code for the information window.
+        //Mainly, the only code that's here is for the "Close Window" button.
+        //And that button does exactly what you think it does.
+        //
+        //That's about it....
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
