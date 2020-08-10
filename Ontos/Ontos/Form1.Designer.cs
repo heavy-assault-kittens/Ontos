@@ -38,6 +38,7 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.testingWindowdevToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,7 +46,8 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.resourcesToolStripMenuItem,
-            this.informationToolStripMenuItem});
+            this.informationToolStripMenuItem,
+            this.testingWindowdevToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -120,6 +122,13 @@
             this.checkedListBox1.Size = new System.Drawing.Size(169, 334);
             this.checkedListBox1.TabIndex = 5;
             // 
+            // testingWindowdevToolStripMenuItem
+            // 
+            this.testingWindowdevToolStripMenuItem.Name = "testingWindowdevToolStripMenuItem";
+            this.testingWindowdevToolStripMenuItem.Size = new System.Drawing.Size(133, 20);
+            this.testingWindowdevToolStripMenuItem.Text = "Testing Window (dev)";
+            this.testingWindowdevToolStripMenuItem.Click += new System.EventHandler(this.TestingWindowdevToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -155,6 +164,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.ToolStripMenuItem informationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem testingWindowdevToolStripMenuItem;
     }
 }
 

@@ -17,9 +17,11 @@ namespace Ontos
             InitializeComponent();
         }
 
-        //Creates a second custom form window
+        //Creates a other custom form windows
         //Information window
         Form2 informationWindow = new Form2();
+        //Feature Testing window
+        Form3 featureTestingWindow = new Form3();
 
        
 
@@ -82,10 +84,20 @@ namespace Ontos
             }
         }
 
-
-
-
-
-        
+        private void TestingWindowdevToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Form3 featureTestingWindow = new Form3();
+                featureTestingWindow.Show();
+            }
+            catch (Exception ex)
+            {
+                string errormessage = "Failed to open window.";
+                string title = "Ontos - Error";
+                MessageBox.Show(errormessage, title);
+                //    Form2 informationWindow = new Form2();
+            }
+        }
     }
 }
